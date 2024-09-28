@@ -1,0 +1,29 @@
+.CompanyList {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.CompanyList-header {
+    margin-bottom: 20px;
+}
+
+.CompanyList-title {
+    font-size: 2em;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.CompanyList-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 20px;
+}
+
+@media (max-width: 768px) {
+    .CompanyList-list {
+        grid-template-columns: 1fr;
+    }
+}

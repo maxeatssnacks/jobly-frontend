@@ -1,0 +1,48 @@
+.CompanyDetails {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.CompanyDetails-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.CompanyDetails-logo {
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
+    object-fit: contain;
+}
+
+.CompanyDetails-name {
+    font-size: 2em;
+    color: #333;
+}
+
+.CompanyDetails-description {
+    margin-bottom: 30px;
+    color: #555;
+}
+
+.CompanyDetails-jobsTitle {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.CompanyDetails-jobs {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 20px;
+}
+
+@media (max-width: 600px) {
+    .CompanyDetails-jobs {
+        grid-template-columns: 1fr;
+    }
+}

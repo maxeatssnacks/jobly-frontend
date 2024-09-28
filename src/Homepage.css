@@ -1,0 +1,49 @@
+.Homepage {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #f0f4f8;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Homepage h1 {
+    font-size: 3em;
+    color: #0077b6;
+    margin-bottom: 20px;
+}
+
+.Homepage p {
+    font-size: 1.2em;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+.Homepage-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.Homepage-buttons a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #0077b6;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.Homepage-buttons a:hover {
+    background-color: #023e8a;
+}
+
+.Homepage h2 {
+    font-size: 2em;
+    color: #333;
+    margin-top: 20px;
+}

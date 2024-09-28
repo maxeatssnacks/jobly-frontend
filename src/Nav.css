@@ -1,0 +1,41 @@
+.Navigation {
+    background-color: #f8f9fa;
+    padding: 1rem 2rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.nav-link {
+    color: #495057;
+    text-decoration: none;
+    font-weight: 500;
+    padding: 0.5rem 1rem;
+    border-radius: 0.25rem;
+    transition: background-color 0.3s ease;
+}
+
+.nav-link:hover {
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #007bff;
+    text-decoration: none;
+    margin-right: 2rem;
+}
+
+.navbar-nav {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.ml-auto {
+    margin-left: auto !important;
+}
+
+.mr-4 {
+    margin-right: 1.5rem !important;
+}
